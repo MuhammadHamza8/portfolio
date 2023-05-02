@@ -1,6 +1,19 @@
+import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
 
+
+
+
+
+
 function Header() {
+
+
+    const mystyle = {
+        backgroundImage:'url(assets/images/SQAENIGINEER.jpg)', 
+      };
+
+
   return (
     
 <div>
@@ -42,10 +55,10 @@ function Header() {
 
         </div>
     </nav>
-
+ 
 
    
-    <section style={{backgroundImage:'url(assets/images/SQAENIGINEER.jpg)' }} className="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+    <section style={mystyle} className="hero d-flex flex-column justify-content-center align-items-center" id="intro">
 
          <div className="container">
             <div className="row">
@@ -109,7 +122,7 @@ function Header() {
                 </div>
 
                 <div className="col-lg-5 mx-auto col-md-6 col-12">
-                    <img src="assets/images/true-agency.jpg" className="about-image img-fluid" alt="Ben's Resume HTML Template"/>
+                    <img   src="assets/images/true-agency.jpg" className="about-image img-fluid  " alt="hamza"/>
                    
                     <div>
                     <ul className="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
@@ -152,27 +165,45 @@ function Header() {
                 </div>
              
              </div>
+
+             <div >
+             <img src="assets/images/sqa.jpg" className="about-image img-fluid" alt="hamza cv "/>
+             </div>
              
 
              <h2 className="text-center p-5 " >My Best Testing Projects</h2>
 
 
-            <div className="row about-third">
+            <div className="row about-third ">
             	<div className="col-lg-4 col-md-4 col-12">
-                <a href="https://medicosconnect.com/" target="_blank" ><h3>MedicoseConnect</h3></a>
+                <a href="https://karin-reinigung.ch/" target="_blank" ><h3>Karin-reinigung</h3></a>
 
-                <p>This project is related to medical professionals. It is a mobile Application Where only Medical professionals can make profiles and use them. it has five modules. 1, Social, 2, Games, 3, dating, 4, classified, 5 education. </p>
+                <div >
+             <img src="assets/images/Karin.png" className="about-image img-fluid" id="imgid" alt="hamza cv "/>
+             </div>
+
+                <p> This project is related to a German business Company. It is a website. On this website, the user contact to the company for Cleaning  their home, office and apartment materials from one place to another</p>
                 </div>
 
 
 
                 <div className="col-lg-4 col-md-4 col-12">
-                <a href="https://smileumzug.ch/" target="_blank"><h3>smileumzug.ch</h3></a>
+                <a href="https://smileumzug.ch/" target="_blank"><h3>Smileumzug</h3></a>
+
+                <div >
+             <img src="assets/images/Smile.png" className="about-image img-fluid" alt="hamza cv "/>
+             </div>
 
                 <p>This project is related to a German business Company. It is a website. On this website, the user contact to the company for moving their home, office and apartment materials from one place to another </p>
                 </div>
                 <div className="col-lg-4 col-md-4 col-12">
                 <a href="https://kaufes.ch/" target="_blank"><h3>Kaufes</h3></a>
+
+                <div >
+             <img src="assets/images/Kaufes.png" className="about-image img-fluid" alt="hamza cv "/>
+             </div>
+
+                
                 <p>This project is related to a German business company. In which a user can do online selling and purchasing of products. Where a company and an individual can make their profiles and post their Ads and sells and purchases their products </p>
                 </div>
             </div>
