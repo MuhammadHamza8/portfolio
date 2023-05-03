@@ -158,7 +158,7 @@ function Header() {
                         <li>Mongodb, SQL </li>
                         <li>Git And GitHub</li>
                         <li>Bitbuket</li>
-                        <li>WOrdpress , Laravel</li>
+                        <li>Wordpress , Laravel </li>
                     </ul>
 
 
