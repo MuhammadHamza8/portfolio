@@ -90,7 +90,7 @@ function Header() {
             <div className="row">
 
                 <div className="col-lg-6 col-md-6 col-12">
-                    <h3 className="mb-4">Software QA Engineer && Website Developer</h3>
+                    <h3 className="mb-4">Software QA Engineer || Website Developer</h3>
 
                     <p>Results-driven software quality assurance professional with experience in testing and ensuring the delivery of high-quality software products. Skilled in identifying and resolving defects, implementing testing processes, and collaborating with cross-functional teams to achieve project goals. Proven track record of improving product reliability and customer satisfaction through extensive testing and quality assurance methodologies. Strong problem-solving and analytical skills, with a focus on attention to detail. Proficient in industry-standard testing tools and software development best practices.</p>
                     <hr></hr>
