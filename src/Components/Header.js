@@ -73,7 +73,7 @@ function Header() {
 
                             <h1 className="hero-title">👋 M.Hamza</h1>
 
-                            <a href="#" className="email-link">
+                            <a href="mailto:hamzaicp54@gmail.com" className="email-link">
                                hamzaicp54@gmail.com
                             </a>
                           
@@ -157,6 +157,8 @@ function Header() {
                         <li>Python</li>  
                         <li>Mongodb, SQL </li>
                         <li>Git And GitHub</li>
+                        <li>Bitbuket</li>
+                        <li>WOrdpress , Laravel</li>
                     </ul>
 
 

@@ -44,7 +44,7 @@ function Footer() {
              
 
                 <p>
-                    <a href="">
+                    <a href="mailto:hamzaicp54@gmail.com">
                         hamzaicp54@gmail.com
                     <i className="fas fa-arrow-right custom-icon"></i>
                     </a>
