@@ -130,8 +130,6 @@ function Header() {
 
                         <li><strong>University </strong> Islamia College University </li>
 
-                        <li><strong>Website :</strong> company.co</li>
-
                         <li><strong>Phone:</strong>+923039854053 </li>
                         <li><strong>Address:</strong>Pakistan Town Phase 2  Islamabad </li>
                     </ul>
